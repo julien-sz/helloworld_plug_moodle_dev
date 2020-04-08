@@ -1,4 +1,5 @@
 <?php
+defined('MOODLE_INTERNAL') || die;
 class block_helloworld extends block_base {
     public function init() {
         $this->title = get_string('helloworld', 'block_helloworld');
