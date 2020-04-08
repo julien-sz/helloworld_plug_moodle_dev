@@ -10,6 +10,7 @@ class block_helloworld extends block_base {
         $this->content = new stdClass;
         $this->content->text = 'Hello World';
         $this->content->footer = 'footer here...';
+        return $this->content;
     }
 }
 
