@@ -15,4 +15,3 @@ class block_helloworld extends block_base {
     }
 }
 
-?>
